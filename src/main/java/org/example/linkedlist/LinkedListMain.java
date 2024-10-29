@@ -16,35 +16,35 @@ public class LinkedListMain {
         for (Minion minion : minionList) {
             System.out.println(minion);
         }
-//        System.out.println("\nДОБАВЛЕНИЕ МИНЬОНА В НАЧАЛО СПИСКА");
-//        minionList.addHead(new Minion("Григорий", 21, 1));
-//        minionList.print();
-//
-//        System.out.println("\nДОБАВЛЕНИЕ МИНЬОНА В КОНЕЦ СПИСКА");
-//        minionList.addTail(new Minion("Семён", 2, 1));
-//        minionList.print();
-//
-//        System.out.println("\nРАЗМЕР СПИСКА: " + minionList.size());
-//
-//        System.out.println("\nИЗМЕНЕНИЕ МИНЬОНА");
-//        Minion oldMinion = new Minion("Алёша", 15, 2);
-//        Minion newMinion = new Minion("Пётр", 20, 1);
-//        minionList.replaceNode(oldMinion, newMinion);
-//        minionList.print();
-//
-//        System.out.println("\nУДАЛЕНИЕ МИНЬОНА С НАЧАЛА СПИСКА");
-//        minionList.removeHead();
-//        minionList.print();
-//
-//        System.out.println("\nУДАЛЕНИЕ МИНЬОНА С КОНЦА СПИСКА");
-//        minionList.removeTail();
-//        minionList.print();
-//
-//        System.out.println("\nПРИМЕР ИСПОЛЬЗОВАНИЯ ИТЕРАТОРА");
-//        for (Minion minion : minionList) {
-//            System.out.println(minion);
-//        }
-//        System.out.println("\nРАЗМЕР СПИСКА: " + minionList.size());
+        System.out.println("\nДОБАВЛЕНИЕ МИНЬОНА В НАЧАЛО СПИСКА");
+        minionList.addHead(new Minion("Григорий", 21, 1));
+        minionList.print();
+
+        System.out.println("\nДОБАВЛЕНИЕ МИНЬОНА В КОНЕЦ СПИСКА");
+        minionList.addTail(new Minion("Семён", 2, 1));
+        minionList.print();
+
+        System.out.println("\nРАЗМЕР СПИСКА: " + minionList.size());
+
+        System.out.println("\nИЗМЕНЕНИЕ МИНЬОНА");
+        Minion oldMinion = new Minion("Алёша", 15, 2);
+        Minion newMinion = new Minion("Пётр", 20, 1);
+        minionList.replaceNode(oldMinion, newMinion);
+        minionList.print();
+
+        System.out.println("\nУДАЛЕНИЕ МИНЬОНА С НАЧАЛА СПИСКА");
+        minionList.removeHead();
+        minionList.print();
+
+        System.out.println("\nУДАЛЕНИЕ МИНЬОНА С КОНЦА СПИСКА");
+        minionList.removeTail();
+        minionList.print();
+
+        System.out.println("\nПРИМЕР ИСПОЛЬЗОВАНИЯ ИТЕРАТОРА");
+        for (Minion minion : minionList) {
+            System.out.println(minion);
+        }
+        System.out.println("\nРАЗМЕР СПИСКА: " + minionList.size());
 
         System.out.println("\nПОЛУЧЕНИЕ ЭЛЕМЕНТА ПО ИНДЕКСУ");
         int index = 4;
